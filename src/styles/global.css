@@ -82,3 +82,45 @@ body {
 .btn-primary:hover {
   background-color: #a8892f;
 }
+/* ÁREAS DE ATUAÇÃO */
+
+.areas {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
+.areas-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-area {
+  background-color: #f1f5f9;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card-area h3 {
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+.card-area p {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.card-area:hover {
+  transform: translateY(-5px);
+}
