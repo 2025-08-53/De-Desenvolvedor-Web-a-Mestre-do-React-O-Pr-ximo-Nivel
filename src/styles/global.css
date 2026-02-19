@@ -124,3 +124,53 @@ body {
 .card-area:hover {
   transform: translateY(-5px);
 }
+/* SOBRE */
+
+.sobre {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+
+.sobre-content {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sobre-texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.sobre-texto h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.sobre-texto p {
+  margin-bottom: 15px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.sobre-destaque {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box-destaque {
+  background-color: #0f172a;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.box-destaque h3 {
+  color: #bfa046;
+  margin-bottom: 10px;
+}
