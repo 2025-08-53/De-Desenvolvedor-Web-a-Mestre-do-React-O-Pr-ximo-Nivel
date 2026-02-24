@@ -174,3 +174,34 @@ body {
   color: #bfa046;
   margin-bottom: 10px;
 }
+/* DEPOIMENTOS */
+
+.depoimentos {
+  padding: 100px 0;
+  background-color: #0f172a;
+  color: white;
+}
+
+.depoimentos-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card-depoimento {
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.card-depoimento .texto {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.card-depoimento .nome {
+  color: #bfa046;
+}
